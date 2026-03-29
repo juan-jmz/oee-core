@@ -1,8 +1,16 @@
 {
-  "devDependencies": {
-    "vitest": "^4.1.2"
-  },
+  "name": "@juanjmz/oee-core",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
   }
 }

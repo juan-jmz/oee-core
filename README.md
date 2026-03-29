@@ -165,13 +165,13 @@ $$
 Quality = \frac{Good\ Count}{Total\ Count}
 $$
 
-## Utilization
+### Utilization
 
 $$
 Utilization = \frac{Planned\ Production\ Time}{Total\ Calendar\ Time}
 $$
 
-## TEEP
+### TEEP
 
 $$
 TEEP = OEE \times Utilization

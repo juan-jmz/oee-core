@@ -1,6 +1,8 @@
 {
-  "name": "@juanjmz/oee-core",
+  "name": "@juan-jmz/oee-core",
   "version": "0.1.0",
+  "author": "Juan Jmz",
+  "description": "A dependency-free, mathematically correct OEE calculation engine for industrial systems.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -9,8 +11,22 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juanmj13/oee-core.git"
+    "url": "https://github.com/juan-jmz/oee-core.git"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "oee",
+    "manufacturing",
+    "industrial",
+    "kpi",
+    "efficiency"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "vitest"

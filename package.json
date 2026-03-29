@@ -1,6 +1,6 @@
 {
   "name": "@juan-jmz/oee-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Juan Jmz",
   "description": "A dependency-free, mathematically correct OEE calculation engine for industrial systems.",
   "main": "dist/index.js",
